@@ -1,0 +1,46 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment and Secrets
+.env
+.env.*
+!.env.example
+
+# IDEs
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+temp_uploads/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+build/
+dist/
+.vercel
+*.log
+.eslintcache
+
+# Project Specific
+docs/site/
+backend/static/
